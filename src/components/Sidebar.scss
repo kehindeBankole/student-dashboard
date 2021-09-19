@@ -1,0 +1,67 @@
+@import "../scss/index.scss";
+.sidebar {
+  @include mq("tablet") {
+    width: 111px;
+  }
+  @include mq("phone-wide") {
+display: none
+  }
+  overflow:hidden;
+  background-color: $headline;
+  position: fixed;
+  height: 100%;
+  width: 240.17px;
+  padding: 21px 40px;
+  box-sizing: border-box;
+  .back_icon{
+  float:right;
+    @include mq("tablet"){
+     display: none;
+    }
+  }
+  .logo {
+    margin-top: 8px;
+    @include mq("tablet") {
+      visibility: hidden;
+    }
+  }
+  .tab{
+ display: none;
+    @include mq("tablet") {
+      display: block !important;
+    }
+  }
+  &_links {
+    margin-top: 20px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+
+
+    @include mq("tablet") {
+     margin-top: 76px;
+     align-items: center;
+    }
+    p{
+      @include mq("tablet"){
+       display: none;
+      }
+    }
+    &_item {
+      font-weight: 400;
+      font-size: 18px;
+      color: $textsidebar;
+      margin-bottom: 3px;
+      display: flex;
+      gap: 17px;
+      &_icon {
+        align-self: center;
+        stroke: $textsidebar;
+        margin: 0;
+        @include mq("tablet") {
+         margin-bottom: 42px;
+        }
+      }
+    }
+  }
+}

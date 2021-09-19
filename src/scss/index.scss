@@ -1,0 +1,15 @@
+@import './config/index';
+body{
+    font-family:myfont
+}
+@font-face {
+    font-family: myfont;
+    src: url('../assets/fonts/SFPRODISPLAYREGULAR.OTF');
+ }
+ 
+@font-face {
+    font-family: myfont;
+    src: url('../assets/fonts/SFPRODISPLAYBOLD.OTF');
+    font-weight: bold;
+ }
+ 

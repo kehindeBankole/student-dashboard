@@ -59,6 +59,11 @@ function Sidebar() {
           {' '}
           <p>Settings</p>
         </div>
+        <div className="sidebar_links_item" id="sidebar_box">
+          <SettingsIcon className="sidebar_links_item_icon" />
+          {' '}
+          <p>Settings</p>
+        </div>
       </div>
     </div>
   );

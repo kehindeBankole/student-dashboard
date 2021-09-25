@@ -62,7 +62,8 @@ function Sidebar() {
         <div className="sidebar_links_item" id="sidebar_box">
           <SettingsIcon className="sidebar_links_item_icon" />
           {' '}
-          <p>Settings</p>
+          <p>Level up your skills, 
+Software Engineering MasterTrack® Certificate</p>
         </div>
       </div>
     </div>

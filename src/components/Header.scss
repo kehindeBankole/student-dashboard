@@ -11,6 +11,9 @@ display: none;
     overflow: hidden;
     padding-right: 0px !important;
   }
+  @include mq("phablet") {
+    display: none;
+  }
   padding-left: 280px;
   padding-right: 30px;
   width: 100%;
@@ -28,6 +31,10 @@ display: none;
       font-size: 12px;
       margin-left: 18px;
     }
+    @include mq("phablet") {
+      font-size: 12px;
+      margin-left: 18px;
+    }
   }
   .user-actions {
     justify-self: center;
@@ -35,6 +42,9 @@ display: none;
     margin-left: 500px;
     display: flex;
     @include mq("tablet") {
+      margin-left: 88px;
+    }
+    @include mq("phablet") {
       margin-left: 88px;
     }
     .menu-icon {
@@ -51,6 +61,10 @@ display: none;
       margin-left: 34px;
       display: block;
       @include mq("tablet") {
+        display: none;
+        margin-left: 10px;
+      }
+      @include mq("phablet") {
         display: none;
         margin-left: 10px;
       }

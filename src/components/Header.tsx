@@ -13,8 +13,10 @@ function Header() {
     return (
         <>
         <div className="header">
-            <SearchIcon className="search-icon" />
+         <div style={{display: 'flex'}}>
+         <SearchIcon className="search-icon" />
             <p className="header_instruction">Search course, student or instructor</p>
+         </div>
             <div className="user-actions">
                 <div className="divider"></div>
                 <MessageIcon className="message-icon" />

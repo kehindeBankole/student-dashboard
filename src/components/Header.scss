@@ -20,6 +20,7 @@ display: none;
   height: 79px;
   background-color: #ffffff;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   &_instruction {
     margin-left: 16px;
@@ -37,9 +38,8 @@ display: none;
     }
   }
   .user-actions {
-    justify-self: center;
+   justify-self: flex-end;
     align-items: center;
-    margin-left: 500px;
     display: flex;
     @include mq("tablet") {
       margin-left: 88px;
@@ -89,6 +89,9 @@ display: none;
       background-color: #8695a0;
       margin-right: 40px;
     }
+  }
+  .search-icon{
+    align-self: center;
   }
 }
 

@@ -1,7 +1,107 @@
-@import '../scss/index.scss';
-.card-container{
-    width: 100%;
-    height: 305px;
-    background-color: #FFFFFF;
-    border-radius: 20px;
+@import "../scss/index.scss";
+.card-container {
+  width: 100%;
+  height: 305px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  &_title {
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: $headline;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    .horimore {
+      align-self: center;
+    }
+  }
+  &_unidetailspart {
+    margin-top: 28;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:70%;
+    .main{
+      display: flex;
+      justify-content: space-between;
+    }
+    div.box {
+      display: flex;
+    }
+    // .logobox{
+    //     width:68px;
+    //     height: 68px;
+    //     border:1px solid $border;
+    //     border-radius:12px;
+    // }
+    .namebox {
+      margin-left: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height:65px;
+      .degree {
+        background-color: $lightblue;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+          color: $white;
+          font-size: 8px;
+          font-weight: 600;
+          text-transform: uppercase;
+          @include mq("phone-small"){
+           font-size:5px;
+          }
+        }
+      }
+      .name {
+        color: $headline;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14.32px;
+        letter-spacing: -0.24px;
+        width: 70%;
+        @include mq("phone-small"){
+       font-size: 10px;
+        }
+      }
+    }
+    .grades{
+      @include mq("phone-small"){
+        display: none !important;
+      }
+      @include mq("phone"){
+        display: none !important;
+      }
+      @include mq("phone-wide"){
+        display: none !important;
+      }
+        display: flex;
+        justify-content: space-between;
+        gap:30px;
+        height:65px;
+        div{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        b{
+            font-size:36px;
+            color:$text;
+            font-family:  myspecialfont;
+        }
+        small{
+          font-size:10px;
+          font-weight:400;
+          color:$text;
+        }
+    }
+    .chart{
+      height:65px;
+    }
+  }
 }

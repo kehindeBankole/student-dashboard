@@ -38,11 +38,13 @@ function Header() {
             <img src={lo} style={{width:22,height:30}}/>
             </div>
             <input type="text" className="mobile-header_search"/>
+            <div style={{display: 'flex'}}>
             <MessageIcon className="message-icon" style={{margin:0}} />
         <div className="mobile-header_image">
         <img src={usericon} alt="user icon" style={{alignSelf:'center',width:'29.52px', height: '29.52px'}}/>
         <div className="mobile-header_online"></div>
         </div>
+      </div>
         </div>
         </>
     )

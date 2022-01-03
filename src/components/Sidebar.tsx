@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import  { ReactElement } from 'react';
 import './Sidebar.scss';
 import { ReactComponent as BackIcon } from '../assets/arrowback.svg';
 import { ReactComponent as Logo } from '../assets/Logo.svg';

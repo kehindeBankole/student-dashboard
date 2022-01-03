@@ -1,5 +1,6 @@
 @import "../scss/index.scss";
 .main-container {
+  padding-bottom: 50px;
   @include mq("tablet") {
     padding-left: 128px;
     padding-right: 22px;
@@ -35,6 +36,21 @@
           margin-right: 5px;
           margin: top 5px;
         }
+      }
+    }
+    .research-session {
+      margin-top: 26px;
+      display: flex;
+      justify-content: space-between;
+      gap: 21px;
+      @include mq("phone-wide") {
+        display: block;
+      }
+      @include mq("phone-small") {
+        display: block;
+      }
+      @include mq("phone") {
+        display: block;
       }
     }
   }

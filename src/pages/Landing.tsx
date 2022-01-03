@@ -4,6 +4,8 @@ import Sidebar from "../components/Sidebar";
 import "./Landing.scss";
 import { ReactComponent as CustomizeIcon } from "../assets/customise.svg";
 import ActiveProgram from "../components/ActiveProgram";
+import Research from "../components/Research";
+import Upcoming from "../components/Upcoming";
 function Landing():ReactElement {
   return (
     <div>
@@ -23,6 +25,10 @@ function Landing():ReactElement {
               </p>
             </div>
             <ActiveProgram/>
+            <div className="research-session">
+              <Research/>
+             <Upcoming/>
+            </div>
           </div>
           <div className="main-container_right"></div>
         </div>

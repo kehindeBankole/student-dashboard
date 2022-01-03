@@ -1,27 +1,30 @@
 //COLORS
-$headline:#333269;
-$textsidebar:#C0BEFF;
-$darkblue:#0A043C;
-$lightblue:#5855D6;
-$border:#F0EFF5;
-$white:#FFFFFF;
-$text:#9592A6;
-
+$headline: #333269;
+$textsidebar: #c0beff;
+$darkblue: #0a043c;
+$lightblue: #5855d6;
+$border: #f0eff5;
+$white: #ffffff;
+$text: #9592a6;
+$researchbg: #fafaff;
+$darkblue: #0e1566;
+$darktext: #868597;
+$red: #ff2c55;
 //OTHERS
 $breakpoints: (
-    "phone-small":        320px,
-    "phone":        400px,
-    "phone-wide":   480px,
-    "phablet":      560px,
-    "tablet-small": 640px,
-    "tablet":       768px,
-    "fluid-out":960px,
-    "tablet-wide":  1024px,
-    "desktop":      1248px,
-    "desktop-med":  1350px,
-    "desktop-wide": 1440px,
-    "excess": 2000px
+  "phone-small": 320px,
+  "phone": 400px,
+  "phone-wide": 480px,
+  "phablet": 560px,
+  "tablet-small": 640px,
+  "tablet": 768px,
+  "fluid-out": 960px,
+  "tablet-wide": 1024px,
+  "desktop": 1248px,
+  "desktop-med": 1350px,
+  "desktop-wide": 1440px,
+  "excess": 2000px,
 );
 
 $menu-shadow: 0 0 10px rgba(0, 0, 0, 0.06), 0 4px 4px rgba(0, 0, 0, 0.12);
-$header-shadow:0px 2px 6px #d1d6de4d;
+$header-shadow: 0px 2px 6px #d1d6de4d;

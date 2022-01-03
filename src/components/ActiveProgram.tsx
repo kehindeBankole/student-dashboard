@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import "./ActiveProgram.scss";
 import { ReactComponent as More } from "../assets/horimore.svg";
 import { ReactComponent as Ulogo } from "../assets/ulogo.svg";

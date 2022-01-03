@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react'
+import  { ReactElement } from 'react'
 import './Header.scss'
 import { ReactComponent as SearchIcon } from '../assets/headersearch.svg';
 import { ReactComponent as MessageIcon } from '../assets/messageicon.svg';

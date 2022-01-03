@@ -1,10 +1,10 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import Header from "../components/Header";
 import Sidebar from "../components/Sidebar";
 import "./Landing.scss";
 import { ReactComponent as CustomizeIcon } from "../assets/customise.svg";
 import ActiveProgram from "../components/ActiveProgram";
-function Landing() {
+function Landing():ReactElement {
   return (
     <div>
       <nav>

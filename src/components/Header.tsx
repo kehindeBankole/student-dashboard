@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 import './Header.scss'
 import { ReactComponent as SearchIcon } from '../assets/headersearch.svg';
 import { ReactComponent as MessageIcon } from '../assets/messageicon.svg';
@@ -9,7 +9,7 @@ import { ReactComponent as TabLogo } from '../assets/tablogo.svg';
 import { ReactComponent as Logo } from '../assets/Logo.svg';
 import usericon from '../assets/userimage.png'
 import lo from '../assets/Group.png'
-function Header() {
+function Header():ReactElement {
     return (
         <>
         <div className="header">

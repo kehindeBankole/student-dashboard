@@ -1,9 +1,9 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import "./ActiveProgram.scss";
 import { ReactComponent as More } from "../assets/horimore.svg";
 import { ReactComponent as Ulogo } from "../assets/ulogo.svg";
 import { ReactComponent as Chart } from "../assets/chart.svg";
-function ActiveProgram() {
+function ActiveProgram():ReactElement {
   return (
     <div className="card-container">
       <div className="card-container_title">

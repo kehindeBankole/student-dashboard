@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactElement } from 'react';
 import './Sidebar.scss';
 import { ReactComponent as BackIcon } from '../assets/arrowback.svg';
 import { ReactComponent as Logo } from '../assets/Logo.svg';
@@ -12,7 +12,7 @@ import { ReactComponent as AttendanceIcon } from '../assets/attendanceicon.svg';
 import { ReactComponent as GradeIcon } from '../assets/gradesicon.svg';
 import { ReactComponent as TransIcon } from '../assets/transicon.svg';
 
-function Sidebar() {
+function Sidebar():ReactElement {
   return (
     <div className="sidebar">
       <BackIcon className="back_icon"/>
